@@ -23,7 +23,7 @@ def f_bilder():
         class_ids = conn.execute(query_class_ids).fetchall()
 
         query = insert(User).values([
-            {"name": "Ekaterina Shikhaleva", "hashed_password": "123545", "class_id": class_ids[0][0]},
+            {"name": "Olga Zhdanova", "hashed_password": "123545", "class_id": class_ids[0][0]},
             {"name": "Ivan Ivanov", "hashed_password": "123545", "class_id": class_ids[1][0]}
         ])
         conn.execute(query)
