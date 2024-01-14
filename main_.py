@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 async def p_index():
-    return {"FIO": "Шихалева Екатерина Константиновна"}
+    return {"FIO": ":Жданова Ольга Алекссевна"}
 
 
 @app.get("/users", response_class=HTMLResponse)
